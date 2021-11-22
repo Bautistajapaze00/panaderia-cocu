@@ -1,0 +1,16 @@
+footer{
+    background: rgba(21,21,21,0.8);
+    padding: 15px;
+}
+
+
+.efectoimg:hover{
+    filter: opacity(50%);
+    transition: 400ms;
+}
+@media all and ( max-width: 576px){
+    .img-responsive{
+        height: 250px;
+        object-fit: cover;
+    }
+}

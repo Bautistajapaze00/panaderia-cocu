@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="bautista japaze " />
+    <meta name="description" content="sitio panaderia cocu" />
+    <meta name="keywords" content="tartas tortas " />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/2656169b97.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>panaderia Cocu</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="../img/cocu_logo-450.png" alt="logo cocu" width="100" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html"
+                  >inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/productos.html">productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="pages/contactos.html"
+                  >contactos</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="container">
+      <h1 class="display-2 text-center">contactanos</h1>
+      <hr />
+      <article class="row">
+        <div class="col-sm-12 col-md-6 mb-3">
+          <form>
+            <div class="mb-3">
+              <label for="nombreapellido" class="form-label"
+                >Nombre y Apellido</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="nombreapellido"
+                required
+                maxlength="30"
+                minlength="3"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input
+                type="email"
+                id="email"
+                class="form-control"
+                required
+                maxlength="40"
+                minlength="5"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="consulta" class="form-label">consulta</label>
+              <textarea
+                id="consulta"
+                rows="4"
+                class="form-control"
+                minlength="10"
+              ></textarea>
+            </div>
+
+            <button class="btn btn-primary" type="submit">enviar</button>
+          </form>
+        </div>
+        <div class="col-sm-12 col-md-6">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.8541089962932!2d-65.28721908479733!3d-26.812773595501803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225d2ac6228455%3A0x2b1c227c663f67dc!2sLola%20Mora%20Oeste%20158%2C%20T4107GND%20Yerba%20Buena%2C%20Tucum%C3%A1n!5e0!3m2!1ses-419!2sar!4v1635277143699!5m2!1ses-419!2sar"
+            class="w-100"
+            height="400"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+      </article>
+    </main>
+    <footer class="bg-dark py-4 text-secondary">
+      <section class="container">
+        <article class="row">
+          <div class="col-sm-12 col-md-4 col-lg-4 centrar">
+            <img
+              src="../img/cocu_logo-450.png"
+              alt="Logo de cocu"
+              width="100"
+            />
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <h5>Horarios de atencion:</h5>
+            <ul>
+              <li>Lunes a Viernes: 09hs-18hs</li>
+              <li>Sabados, domingos y feriados: 09hs-14hs</li>
+            </ul>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <h5>Siguenos en nuestras redes:</h5>
+            <div class="centrar">
+              <a
+                href="https://fontawesome.com/v5.15/icons/twitter-square?style=brands"
+                target="_blank"
+                class="text-secondary mx-2"
+              >
+                <i class="fab fa-facebook-square fa-2x"></i
+              ></a>
+              <a
+                href="https://fontawesome.com/v5.15/icons/twitter-square?style=brands"
+                target="_blank"
+                class="text-secondary mx-2"
+              >
+                <i class="fab fa-instagram-square fa-2x"></i
+              ></a>
+              <a
+                href="https://fontawesome.com/v5.15/icons/twitter-square?style=brands"
+                target="_blank"
+                class="text-secondary mx-2"
+              >
+                <i class="fab fa-twitter-square fa-2x"></i
+              ></a>
+            </div>
+          </div>
+        </article>
+      </section>
+    </footer>
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>
